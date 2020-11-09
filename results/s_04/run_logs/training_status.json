@@ -1,0 +1,47 @@
+{
+    "Shooter": {
+        "checkpoints": [
+            {
+                "steps": 549888,
+                "file_path": "results\\s_04\\Shooter\\Shooter-549888.nn",
+                "reward": 3.259675027243793,
+                "creation_time": 1604861924.8371484
+            },
+            {
+                "steps": 599936,
+                "file_path": "results\\s_04\\Shooter\\Shooter-599936.nn",
+                "reward": 3.8857500478625298,
+                "creation_time": 1604862053.652538
+            },
+            {
+                "steps": 649984,
+                "file_path": "results\\s_04\\Shooter\\Shooter-649984.nn",
+                "reward": 3.3950312859378755,
+                "creation_time": 1604862177.1721358
+            },
+            {
+                "steps": 699904,
+                "file_path": "results\\s_04\\Shooter\\Shooter-699904.nn",
+                "reward": 3.4096750345081093,
+                "creation_time": 1604862296.6140513
+            },
+            {
+                "steps": 722048,
+                "file_path": "results\\s_04\\Shooter\\Shooter-722048.nn",
+                "reward": 3.3363125363054373,
+                "creation_time": 1604862350.9028022
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 722048,
+            "file_path": "results\\s_04\\Shooter.nn",
+            "reward": 3.3363125363054373,
+            "creation_time": 1604862350.9028022
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.21.0",
+        "tensorflow_version": "2.3.1"
+    }
+}
