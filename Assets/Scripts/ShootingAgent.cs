@@ -8,7 +8,7 @@ public class ShootingAgent : Agent
 {
     public Transform shootingPoint;
     public int minStepsBetweenShoots=50;
-
+    public float rotationSpeed = 3f;
     public int damage=100;
     public bool shootAvailable;
     private int StepsUntilShootAvailable=0;
@@ -61,6 +61,7 @@ public class ShootingAgent : Agent
             if(shootAvailable) Shoot();
         }
         rb.velocity = new Vector3(vectorAction[2] * speed, 0f, vectorAction[1] * speed);
+        transform.Rotate(Vector3.up,vectorAction[3]*rotationSpeed);
     }
 
     public override void CollectObservations(VectorSensor sensor){
